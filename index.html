@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final DevOps Course Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+    <header class="bg-gradient-to-r from-blue-500 to-teal-400 text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4 animate__animated animate__fadeInDown">Final DevOps Course Project</h1>
+            <p class="text-2xl animate__animated animate__fadeInUp">Made by: Eden, David, Tal & Ofer</p>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4">
+            <ul class="flex justify-center space-x-8 py-4">
+                <li><a href="#about" class="text-blue-600 hover:text-blue-800 transition duration-300">About</a></li>
+                <li><a href="#projects" class="text-blue-600 hover:text-blue-800 transition duration-300">Projects</a></li>
+                <li><a href="#contact" class="text-blue-600 hover:text-blue-800 transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto mt-8 px-4">
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-bold mb-4 text-center">About Our Project</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                This project represents the culmination of our DevOps course, showcasing our skills in Team work, Kubernetes, AWS, EKS, ArgoCD, ECR Artifactory, Grafana, 
+                Prometheus, SonarQube, Github Actions.
+            </p>
+        </section>
+
+        <section id="projects" class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center">Our Subdomains</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Grafana</h3>
+                        <p class="text-gray-600 mb-4">Grafana server with Prometheus.</p>
+                        <a href="http://grafana.cool-devops-team.com" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Visit Project</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">ArgoCD</h3>
+                        <p class="text-gray-600 mb-4">ArgoCD Server for app deployments.</p>
+                        <a href="http://argocd.cool-devops-team.com" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Visit Project</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">A React App</h3>
+                        <p class="text-gray-600 mb-4">Deployed with ArgoCD.</p>
+                        <a href="http://app.cool-devops-team.com" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Visit Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center">Contact Us</h2>
+            <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-8">
+                <p class="text-gray-700 mb-4">Get in touch with our team or download our presentation for more information.</p>
+                <a href="path/to/your/presentation.pptx" download class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition duration-300 inline-block mb-4">
+                    <i class="fas fa-download mr-2"></i>Download Presentation
+                </a>
+                <div class="mt-4">
+                    <h3 class="text-xl font-semibold mb-2">Team Members:</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Eden</li>
+                        <li>David</li>
+                        <li>Tal</li>
+                        <li>Ofer</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Cool-DevOps-Team Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
